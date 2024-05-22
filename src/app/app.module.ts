@@ -25,14 +25,16 @@ import { ViewComponent } from './view/view.component';
 import { CommentsComponent } from './comments/comments.component';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
 
-let config = {
-  apiKey: "AIzaSyDyT_uO9pFs3nDvJWDGH78z14Rkz8G-Je4",
-  authDomain: "scribe-d63dd.firebaseapp.com",
-  databaseURL: "https://scribe-d63dd.firebaseio.com",
-  projectId: "scribe-d63dd",
-  storageBucket: "scribe-d63dd.appspot.com",
-  messagingSenderId: "236969302096"
+let Config = {
+  apiKey: "AIzaSyBcgzYCNIF3wkBZ4CFhvygA6l1Ge1shLOE",
+  authDomain: "scribe-59b92.firebaseapp.com",
+  projectId: "scribe-59b92",
+  storageBucket: "scribe-59b92.appspot.com",
+  messagingSenderId: "548606334632",
+  appId: "1:548606334632:web:529ea3664381e3aea8149d",
+  measurementId: "G-LYXQF1E6WZ"
 };
+
 firebase.initializeApp(config);
 
 @NgModule({
